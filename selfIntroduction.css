@@ -1,0 +1,24 @@
+.infromationOfMe {
+  color: #5e87b8;
+  text-shadow: 2px 2px 2px #24527a;
+  font-size: 60px;
+  text-align: center;
+}
+html, head {
+  background-color: #fefaec;
+}
+
+.introductions {
+  border: 1px solid clear;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.introduction {
+  display: inline-block;
+  border: 1px solid ;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  margin-left: 20px;
+  text-align: center;
+}
