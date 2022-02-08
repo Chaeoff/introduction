@@ -14,7 +14,7 @@ function showDetail(a, b, c) {
 var itemList = [];
 
 		var addBtn = document.querySelector("#add");
-		addBtn.onclick = addList; // addBtn.onclick = addList; 라고 해도 됨
+		addBtn.addEventListener("click", addList); // addBtn.onclick = addList; 라고 해도 됨
 
 		function addList() {
 			var item = document.querySelector("#item").value;  // 텍스트 필드 내용 가져옴
