@@ -1,24 +1,76 @@
-.infromationOfMe {
-  color: #5e87b8;
-  text-shadow: 2px 2px 2px #24527a;
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+
+
+.informationOfMe {
+  color: #ffb6b9;
+  text-shadow: 2px 2px 2px #e16262;
   font-size: 60px;
   text-align: center;
 }
-html, head {
-  background-color: #fefaec;
+html {
+  background-color: #fffdef;
 }
-
-.introductions {
-  border: 1px solid clear;
-  margin: 1rem;
-  padding: 2rem 2rem;
-  text-align: center;
+body {height:100%; margin:0; padding:0;}
+img {
+  margin-top: 30px;
+  margin-bottom: 28px;
+  color: clear;
+  cursor: pointer;
 }
 .introduction {
-  display: inline-block;
-  border: 1px solid ;
-  padding: 1rem 1rem;
-  vertical-align: middle;
-  margin-left: 20px;
   text-align: center;
+  background-color: #b4f1f1;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.container {
+  position: relative;
+  margin:0px;
+  border:0px;
+  background-color: #b4f1f1;
+}
+#did {
+  position: absolute;
+  bottom: -5px;
+  right: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+#like {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+#want {
+  position: absolute;
+  bottom: -5px;
+  left: -20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+img:hover {
+  box-shadow: 0 8px 10px 10px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.description {
+  text-align: center;
+}
+#didDetail, #likeDetail, #wantDetail {
+  display: none;
+  justify-content: center;
+  background-color: #ecfeff;
+  margin: 50px 100px 0px 100px;
+}
+h3 {
+  font-family: 'Gowun Batang', serif;
+  font-style: bold;
 }

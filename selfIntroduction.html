@@ -7,10 +7,33 @@
   Who Am I?
   </title>
 </head>
-<h1 class="infromationOfMe"> Fullstack 4기 서채원 </h1>
-</html>
-<div class="introductions">
-  <p class="introduction">What I did</p>
-  <p class="introduction">What I like</p>
-  <p class="introduction">What I want</p>
-</div>
+<h1 class="informationOfMe"> Fullstack 4기 서채원 </h1>
+<body>
+  <div class="introduction">
+    <div class="container">
+        <img src="IMG_3315.JPG" width="385px" height="385px" alt="starbucks pic" onclick= "showDetail('didDetail', 'likeDetail', 'wantDetail')">
+        <p id='did'>What<br>&nbsp;&nbsp;&nbsp;&nbsp;I did</p>
+    </div>
+    <div class="container">
+        <img src="what I like.jpeg" width="385px" height="385px" alt="beach pic" onclick= "showDetail('likeDetail', 'didDetail', 'wantDetail')">
+        <p id="like">&nbsp;&nbsp;&nbsp;&nbsp;What<br>I like</p>
+    </div>
+    <div class="container">
+        <img src="what I want.jpeg" width="385px" height="385px" alt="CN Tower pic" onclick= "showDetail('wantDetail', 'likeDetail', 'didDetail')">
+        <p id="want">What<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I want</p>
+    </div>
+  </div>
+</body>
+<body class="description">
+  <h3 id='didDetail'> 대학에서 연극을 전공했습니다. 연극은 너무 좋지만 업으로 삼는것 보다는 취미로
+    남겨두기로 결심했어요. <br>사진에서 알 수 있으시겠지만 스타벅스에서도 잠깐 일했었습니다! 커피에 대해 배울 수 있었고
+    많은 사람을 만나서 좋았어요.<br>근데 오래할 수 있는 일은 아닌것 같아서 새로운 길을
+     찾아다녔습니다! 그러다가 여기까지 흘러왔네요!
+  </h3>
+  <h3 id='likeDetail'>사진에서 티냈지만 바다를 아주 좋아합니다. 그냥 가만히 앉아서 파도를 보는것도, 직접 뛰어들어 수영하는것도 좋아해요!
+    <br>
+    새로운걸 배우는 거, 고양이, 맛있는 음식, 등등 그냥 좋아하는게 많은 사람입니다 :)
+</h3>
+  <h3 id='wantDetail'> 캐나다 이주 원해요</h3>
+</body>
+<script src="selfIntroduction.js"></script>
