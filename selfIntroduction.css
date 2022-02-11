@@ -16,6 +16,11 @@ img {
   color: clear;
   cursor: pointer;
 }
+
+.nameBlog {
+  justify-content: center;
+
+}
 .introduction {
   text-align: center;
   background-color: #b4f1f1;
@@ -76,6 +81,29 @@ h3 {
   text-align:center;
 }
 
+.blog {
+  position: relative;
+}
+
+a {
+  right: 20px;
+  position: absolute;
+  bottom: 16px;
+  font-family: 'Gowun Batang', serif;
+  font-style: bold;
+  font-size: 18px;
+  text-decoration: none;
+  color: #3b6ac0;
+
+}
+a:hover {
+  cursor:pointer;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #3b6ac0;
+}
 /* 여기서부터 책 내용 복붙 */
 * {
   box-sizing:border-box;
